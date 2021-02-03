@@ -1,0 +1,52 @@
+body {
+	background: rgb(64, 255, 88);
+	background: linear-gradient(0deg, rgba(64, 255, 88, 1) 0%, rgba(229, 255, 254, 1) 48%);
+	height: 100vh;
+}
+
+h1 {
+	color: rgb(58, 56, 56);
+	text-align: center;
+	margin-top: 50px;
+	font-family: 'Pacifico', cursive;
+	font-size: 3em;
+	font-weight: 100;
+}
+
+#searchGiphy {
+	background-color: rgb(58, 56, 56);
+	padding: 0.7em;
+	color: white;
+	margin: 2px;
+	border: none;
+}
+
+.remove {
+	background-color: rgb(209, 73, 73);
+	color: white;
+	margin: 2px;
+}
+
+.giphyForm {
+	display: flex;
+	justify-content: center;
+	margin: 50px;
+}
+
+input {
+	padding: 0.7em;
+	margin: 2px;
+}
+#giph-area {
+	margin: 50px;
+}
+img {
+	margin: 5px;
+}
+#searchGiphy:hover {
+	cursor: pointer;
+}
+
+.remove:hover {
+	cursor: pointer;
+}
