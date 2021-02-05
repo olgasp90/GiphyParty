@@ -8,10 +8,10 @@ const gifContainer = document.querySelector('#giph-area');
 searchBtn.addEventListener('click', async (e) => {
     e.preventDefault();
     try{
-        const url = 'http://api.giphy.com/v1/gifs/search';
+        const url = 'https://api.giphy.com/v1/gifs/search';
         const  api_key= '0ZExygcBXdfj6C7nnUokUSdjF1GZ0M8G'
         const searchTerm = document.querySelector('#searchTerm').value;
-        const response = await axios.get(`http://api.giphy.com/v1/gifs/search?q=${searchTerm}&api_key=${api_key}`)
+        const response = await axios.get(`https://api.giphy.com/v1/gifs/search?q=${searchTerm}&api_key=${api_key}`)
 
         let dataLength = response.data.data.length;
         let randomData = Math.floor(Math.random()*dataLength);
